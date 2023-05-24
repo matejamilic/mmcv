@@ -277,26 +277,7 @@ h3.my-profession{
     text-align:center;
     position:relative;
 }
-.home-img::after{
-    content:'';
-    position:absolute;
-    height:80px;
-    width:80px;
-    border-bottom:10px solid var(--bg-black-150);
-    border-right:10px solid var(--bg-black-150);
-    right:122px;
-    bottom:-40px;
-}
-.home-img::before{
-    content:'';
-    position:absolute;
-    height:80px;
-    width:80px;
-    border-top:10px solid var(--bg-black-150);
-    border-left:10px solid var(--bg-black-150);
-    left:122px;
-    top:-42px;
-}
+
 .home .home-img img{
     margin:auto;
     height:400px;
